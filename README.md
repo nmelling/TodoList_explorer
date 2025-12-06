@@ -1,15 +1,11 @@
-# todolistmongo
+# Projet
 
-To install dependencies:
+Base de projet pour apprentissage de divers frameworks/technos back/front.
 
-```bash
-bun install
-```
+L'idée est d'avoir un code métier facilement testable et branchable (via submodule ou autre?) sur d'autres projets de tests exclusif de framework ou technos afin de ne pas à recoder une partie métier à chaque fois et se concentrer exclusivement sur l'apprentissage pouru gain de temps.
 
-To run:
+Le but de se projet est de me familiariser notamment avec le concept de DDD qui est particulèrement souple et donc adapté.
 
-```bash
-bun run index.ts
-```
+Partie mongoDb à déplacer dans un autre projet pour générer uniquement des adapters à brancher ici.
 
-This project was created using `bun init` in bun v1.3.2. [Bun](https://bun.com) is a fast all-in-one JavaScript runtime.
+
