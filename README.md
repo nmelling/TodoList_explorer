@@ -8,6 +8,6 @@ Le but de ce projet est de me familiariser notamment avec:
  - le concept de DDD qui est particulèrement souple et donc adapté.
  - l'apprentissage de la POO.
 
-Partie mongoDb à déplacer dans un autre projet pour générer uniquement des adapters à brancher ici.
+Les parties DB & Domain seront donc les parties mouvantes du projets qui seront celles étudiées spécifiquement à côté.
 
 
