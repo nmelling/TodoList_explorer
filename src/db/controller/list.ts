@@ -1,7 +1,11 @@
 import { listSchema } from '@/lib/schema';
 
-export function createList() {
-  return listSchema.parse({ uuid: crypto.randomUUID(), title: '', tasks: [] });
+export function createList(title = '') {
+  return listSchema.parse({
+    uuid: crypto.randomUUID(),
+    title,
+    tasks: [],
+  });
 }
 
 export function getListByUuid(uuid: string) {

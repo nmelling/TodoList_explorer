@@ -6,6 +6,10 @@ export class List {
   private title = '';
   private tasks: Task[] = [];
 
+  constructor(title?: string) {
+    this.title = title ?? '';
+  }
+
   public get() {
     return {
       uuid: this.uuid,
@@ -15,7 +19,7 @@ export class List {
   }
 
   public async create() {
-    const list = await createList();
+    const list = await createList(this.title);
     this.uuid = list.uuid;
     this.title = list.title;
     this.tasks = list.tasks;
